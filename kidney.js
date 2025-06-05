@@ -58,4 +58,9 @@ app.delete("/", function(req, res){
     })
 })
 
+// Global Catches
+app.use(function(err, req, res, next) {
+    res.status(500).send("Something Bad Happened");
+});
+
 app.listen(3001);
