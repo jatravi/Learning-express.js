@@ -1,3 +1,7 @@
+## Backend 
+- learn proxy
+- learn connecting Frontend with backend
+
 ## index.js
 - Deployable app
 - Learn dotenv 
